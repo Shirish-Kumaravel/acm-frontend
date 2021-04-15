@@ -2,7 +2,7 @@
   "name": "holiday-check",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shirish-kumaravel.github.io/acm-holiday-check/",
+  "homepage": "https://shirish-kumaravel.github.io/acm-frontend/",
   "dependencies": {
     "gh-pages": "^3.1.0",
     "react": "^17.0.2",

@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.bgimg{
+  margin-top: 10px;
+  width:100%;
+  background-image:url('beachtrees.jpg');
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.GreyBox{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.ContentBox{
+    
+  text-align: center;
+  background-color: lightgrey;
+  border: 1px lightgrey;
+  box-shadow: 0 2px 3px #ccc;
+  margin-top: 350px;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  padding: 16px;
+}
+
+.commentbox{
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px yellow;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 30px;
+  border-top: 20px;
+}
+
+button{
+  background-color:gold;
+  font-family: 'Open Sans', sans-serif;
+  padding:8px;
+  border: 1px black;
+  font-weight: bold;
+  font-size: 1.0vw;
+  color: black;
+  margin-bottom: 10px;
+}
+
+button:hover{
+  
+  cursor:pointer;
+  font-size: 1.15vw;
+  border: 5px black;
+}
+
+.ProfileImages{
+  width: 60px;
+  border-radius:50% ;
+}
+h3{
+  list-style:50%;
+}
+
+.user{
+   margin-top: -60px;
+
+}
+.Dist{
+  line-height: 0px;
+}
+
+#filledstar{
+  color: gold;
+  
+}
+#emptystar{
+  color: gold;
+  
+}
+#thumbsdown{
+  color:red;
+  margin-right: 10px;
+}
+
+#thumbsup{
+  color:green;
+  margin-right: 10px;
+}
+
+input{
+  background-color: lightyellow;
+  border: gold;
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  color: darkgrey;
+  font-family:'Open Sans', sans-serif;
+}
+

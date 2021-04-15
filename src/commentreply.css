@@ -1,0 +1,22 @@
+.userme{
+    margin-top: -60px;
+ 
+ }
+
+ .commentboxme{
+    background-color: lightyellow;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px yellow;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    border-top: 20px;
+  }
+  .ProfileImagesme{
+    width: 60px;
+    border-radius:50% ;
+  }
+  .Distme{
+    line-height: 0px;
+  }

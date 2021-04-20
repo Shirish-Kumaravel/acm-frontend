@@ -34,7 +34,7 @@ class App extends Component {
           this.setState({button4: !doesShow4});
           }
   render() {
-   
+    
     return (
       
       <div class='bgimg'>
@@ -52,11 +52,14 @@ class App extends Component {
                </div>
                <h1>It's a great place!</h1>
                <i id='thumbsup' class="fas fa-2x fa-thumbs-up"></i> <i id="filledstar" class="fas fa-2x fa-star"></i><i id="filledstar" class="fas fa-2x fa-star"></i><i id="filledstar" class="fas fa-2x fa-star"></i> <i id="filledstar" class="fas fa-2x fa-star"></i> <i id="filledstar" class="fas fa-2x fa-star"></i>
-              <p>I had a great time. There is so much to do. I love the beach, the hotel I stated at was awesome. There are plenty of places to shop at. All the name brand stores are there Chanel, Fendi, Coach about 3 of them, Guess, etc. I like the Dole Plantation, Diamond Head, and Pearl Harbor was a nice visit. You do not have to book the expense tours unless you really can afford it. The bus take you everywhere you need to go. I do not recommend Gernamin Laua. The food was awfull. The people were great and you do get 3 very strong drinks. The drinks are strong to make you forget how terrible the food was. My hotel was the Ohana Mali.</p>
+              <p>I had a great time. There is so much to do. I love the beach, the hotel I stated at was awesome. There are plenty of places to shop at. All the name brand stores are there Chanel, Fendi, Coach about 3 of them, Guess, etc. I like the Dole Plantation, Diamond Head, and Pearl Harbor was a nice visit. You do not have to book the expense tours unless you really can afford it. The bus take you everywhere you need to go.<span className='transparency'> I do not recommend Gernamin Laua. The food was awfull. The people were great and you do get 3 very strong drinks. The drinks are strong to make you forget how terrible the food was. My hotel was the Ohana Mali</span>.</p>
               <div>
               {this.state.button1?<Comment />:null}
               </div>
-               <button onClick={this.togglecomment1Handler}>Comment</button></div>
+              <div>
+              {this.state.button1?<button id='submitbutton' className="commentbutton" >Submit</button>:<button className="commentbutton" onClick={this.togglecomment1Handler}>Comment</button>}</div>
+              </div>
+               
 
 
             </div>
@@ -79,7 +82,8 @@ class App extends Component {
                  <div>
               {this.state.button2?<Comment />:null}
               </div>
-                 <button onClick={this.togglecomment2Handler} >Comment</button>
+              <div>
+              {this.state.button2?<button id='submitbutton' className="commentbutton" >Submit</button>:<button className="commentbutton" onClick={this.togglecomment2Handler}>Comment</button>}</div>
                  </div>
                
 
@@ -103,7 +107,8 @@ class App extends Component {
                    <div>
               {this.state.button3?<Comment />:null}
               </div>
-                   <button onClick={this.togglecomment3Handler}>Comment</button></div>
+              <div>
+              {this.state.button3?<button id='submitbutton' className="commentbutton" >Submit</button>:<button className="commentbutton" onClick={this.togglecomment3Handler}>Comment</button>}</div></div>
                
 
             </div>
@@ -127,7 +132,8 @@ class App extends Component {
                  <div>
               {this.state.button4?<Comment />:null}
               </div>
-                 <button onClick={this.togglecomment4Handler}>Comment</button></div>
+              <div>
+              {this.state.button4?<button id='submitbutton' className="commentbutton" >Submit</button>:<button className="commentbutton" onClick={this.togglecomment4Handler}>Comment</button>}</div></div>
                
                
             </div>
